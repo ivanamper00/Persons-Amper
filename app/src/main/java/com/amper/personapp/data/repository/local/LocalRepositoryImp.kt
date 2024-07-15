@@ -5,7 +5,6 @@ import com.amper.personapp.data.model.PersonEntity
 import com.amper.personapp.data.model.mapToDto
 import com.amper.personapp.data.service.PersonDao
 import com.amper.personapp.domain.repository.local.LocalRepository
-import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Single
 import javax.inject.Inject
 

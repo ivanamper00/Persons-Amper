@@ -34,7 +34,6 @@ class ProfileListFragment(
         )
 
     companion object {
-        const val TAG = "ProfileListFragment"
         fun newInstance(
             listener : ProfileListener,
         ): ProfileListFragment = ProfileListFragment(listener)

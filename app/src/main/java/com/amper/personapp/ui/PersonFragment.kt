@@ -7,11 +7,10 @@ import android.util.Log
 import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
 import com.amper.personapp.R
-import com.amper.personapp.util.DateUtility
 import com.amper.personapp.data.model.PersonDto
 import com.amper.personapp.databinding.FragmentProfileBinding
+import com.amper.personapp.util.DateUtility
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -24,8 +23,6 @@ class PersonFragment : Fragment(R.layout.fragment_profile) {
     private var person: PersonDto? = null
 
     lateinit var bottomSheetBehavior: BottomSheetBehavior<View>
-
-    private val viewModel by viewModels<ProfileViewModel>()
 
     companion object {
         const val TAG = "PersonFragment"
