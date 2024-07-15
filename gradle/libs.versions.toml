@@ -6,21 +6,54 @@ junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
 appcompat = "1.6.1"
-material = "1.10.0"
+material = "1.12.0"
 activity = "1.8.0"
+fragment = "1.8.1"
 constraintlayout = "2.1.4"
+hilt = "2.48"
+rxAndroid = "3.0.2"
+rxJava = "3.1.5"
+room = "2.6.1"
+retrofit = "2.11.0"
+glide = "4.16.0"
+logging-interceptor = "4.12.0"
+swipeRefresh = "1.2.0-alpha01"
+androidx-test = "1.6.1"
+mockk = "1.13.11"
+arch-core = "2.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-test-core = { group = "androidx.test", name = "core", version.ref = "androidx-test" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+androidx-fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment" }
+androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-arch-core = { group = "androidx.arch.core", name = "core-testing", version.ref = "arch-core" }
+dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+rxAndroid = { group = "io.reactivex.rxjava3", name = "rxandroid", version.ref = "rxAndroid" }
+rxJava = { group = "io.reactivex.rxjava3", name = "rxjava", version.ref = "rxJava" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room-rxjava3 = { group = "androidx.room", name = "room-rxjava3", version.ref = "room" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-adapter-rxjava = { group = "com.squareup.retrofit2", name = "adapter-rxjava3", version.ref = "retrofit" }
+retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+okhttp3-loging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "logging-interceptor" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+swipeRefresh = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swipeRefresh" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-
+dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt"}
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
