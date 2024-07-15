@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CircularImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ProfileText" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+
+    <style name="ProfileTextViewLabel" parent="ProfileText">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="ProfileHeading" parent="ProfileText">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textFontWeight">600</item>
+    </style>
+</resources>

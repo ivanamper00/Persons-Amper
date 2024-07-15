@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">PersonApp</string>
+    <string name="action_back">Back</string>
+    <string name="profile_first_name">First name</string>
+    <string name="profile_last_name">Last name</string>
+    <string name="profile_bod">Birth date</string>
+    <string name="profile_age">Age</string>
+    <string name="profile_unit_no">Unit no.</string>
+    <string name="profile_street">Street</string>
+    <string name="profile_state">State</string>
+    <string name="profile_city">City</string>
+    <string name="profile_country">Country</string>
+    <string name="profile_postal_code">Postal code</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_mobile_no">Mobile number</string>
+    <string name="profile_address">Address</string>
+    <string name="profile_contact_person">Contact person</string>
+    <string name="profile_personal_details_label">Personal details</string>
+    <string name="profile_contact_details_label">Contact details</string>
+    <string name="profile_address_label">Address</string>
+    <string name="name_holder">%1$s %2$s</string>
 </resources>
