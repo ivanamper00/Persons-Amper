@@ -19,4 +19,6 @@
     <string name="profile_contact_details_label">Contact details</string>
     <string name="profile_address_label">Address</string>
     <string name="name_holder">%1$s %2$s</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="technical_issue">Having technical issue. Please try again.</string>
 </resources>

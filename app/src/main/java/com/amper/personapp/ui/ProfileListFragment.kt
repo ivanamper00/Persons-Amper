@@ -56,11 +56,11 @@ class ProfileListFragment(
         viewModel.personState.observe(viewLifecycleOwner) { state ->
             when(state){
                 is UiState.Error -> {
-                    when(state.error) {
-                        is NoConnectivityException -> {
-                            Toast.makeText(requireContext(), "No internet connection", Toast.LENGTH_SHORT).show()
-                        }
+                    val errorMessage = when(state.error) {
+                        is NoConnectivityException -> getString(R.string.no_internet_connection)
+                        else -> getString(R.string.technical_issue)
                     }
+                    Toast.makeText(requireContext(), errorMessage, Toast.LENGTH_SHORT).show()
                 }
                 is UiState.Loading -> {
                     if(adapter.isEmpty()){
